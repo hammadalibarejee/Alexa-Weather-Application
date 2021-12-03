@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hammad weather app",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "WeatherIntent",
+          "slots": [
+            {
+              "name": "CityName",
+              "type": "AMAZON.City"
+            }
+          ],
+          "samples": [
+            "tell the temperature of {CityName}",
+            "temperature in {CityName}",
+            "weather in {CityName}",
+            "what is the temperature in {CityName}",
+            "get the temperature of {CityName}",
+            "tell me the temperature of {CityName}",
+            "what is temperature of {CityName}",
+            "what is the weather in {CityName}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
